@@ -1,7 +1,7 @@
 body{
     background-color: #ffffd6d6;
     color: black ;
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: center ;
     align-items: center ;
@@ -12,5 +12,5 @@ body{
 button{
     background-color: rgb(42, 174, 235);
     color: white;
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Montserrat", sans-serif;
 }
