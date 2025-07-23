@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aventura Pirata</title>
+  <title>Aventura Pirata: Atrás do One Piece</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
 
 </head>
 
 <body>
+  <main>
+    <div class="passo" id="passo-0">
+      <p>Monkey D. Luffy, um jovem que sonha em se tornar o Rei dos Piratas. Para realizar esse sonho, ele embarca em uma jornada pelos oceanos em busca do lendário tesouro conhecido como "One Piece", deixado pelo Rei dos Piratas, Gol D. Roger.  Você deve ajudá-lo a chegar até Laugh Tale, seguindo pela rota correta. Em que lugar eles deveriam procurar por pistas?</p>
+      <button class="btn-proximo" data-proximo="1">Pós-Reverse Mountain</button>
+      <button class="btn-proximo" data-proximo="2">Pré-Reverse Mountain</button>
+    </div>
+     <div class="passo" id="passo-1">
+      <p>Luffy e sua tripulação chegam a Whisky Peak, onde são recebidos de forma amigável pela população, mas descobrem, se tratar de uma ilha com diversos caçadores de recompensa. Como reagir a isso?</p>
+      <button class="btn-proximo" data-proximo="3">Lutar contra eles e sair da ilha.</button>
+      <button class="btn-proximo" data-proximo="4">Se entregar aos caçadores e desistir da aventura.</button>
+    </div>
+  </main>
 
   <script src="script.js"></script>
 
 </body>
+
 </html>
