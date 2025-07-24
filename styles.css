@@ -1,17 +1,17 @@
-body{
-    background-color: #ffffd6d6;
-    color: black ;
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
     display: flex;
-    justify-content: center ;
-    align-items: center ;
-    height: 700px ;
-    margin:0px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
 }
 
-button{
-    background-color: rgb(42, 174, 235);
-    color: white;
+button {
+    background-color: rgb(98, 175, 219);
+    color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
 }
 
@@ -21,4 +21,15 @@ button{
 
 .passo.ativo {
     display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 100%;
+    width: 600px;
+    height: 400px;
 }
